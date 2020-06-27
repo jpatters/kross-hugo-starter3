@@ -14,3 +14,8 @@ fields:
 - type: text
   name: description
   label: description
+- name: asdf
+  type: include
+  config: {}
+  template: blah
+  label: asdf
