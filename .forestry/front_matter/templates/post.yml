@@ -14,10 +14,13 @@ fields:
 - type: text
   name: description
   label: description
-- name: asdf
-  type: include
-  config: {}
-  template: blah
-  label: asdf
+- name: sadfasd
+  type: blocks
+  label: sadfasd
+  template_types:
+  - blah
+  config:
+    min: 
+    max: 
 pages:
 - content/blog/asdfasdfasd.md
